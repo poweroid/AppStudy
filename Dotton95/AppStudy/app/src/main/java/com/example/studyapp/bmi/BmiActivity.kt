@@ -48,7 +48,7 @@ class BmiActivity : BaseActivity<ActivityBmiBinding>(R.layout.activity_bmi) {
             bmiViewModel.bmi.value = String.format("%.1f",bmi1)
             bmiViewModel.result.value = result1
 
-            binding.setVariable(BR.vm,bmiViewModel)
+            binding.setVariable(BR.bmiVm,bmiViewModel)
         }
     }
 }
